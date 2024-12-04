@@ -14,6 +14,7 @@ const AppHome: React.FC = () => {
       <h1 className="text-2xl font-bold mb-4">Reusable Button Example</h1>
       <Button label="Click Me" onClick={handleClick} />
       <Button label="Disabled Button" disabled className="mt-4" />
+      <Button label="Disabled Button" disabled className="mt-4" />
       <Button
         label="Custom Styled Button"
         className="mt-4 bg-green-500 hover:bg-green-600"
